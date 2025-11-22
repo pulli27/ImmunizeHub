@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1px 60px;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo img {
+    width: 10px;
+    height: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+   
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+}
+
+.navbar ul li a.active {
+    background-color: #e0e0e0;
+}
+
+.user-login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-login.fas {
+    font-size: 50px;
+    color: #000;
+}
+
+.login-btn {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 1s;
+}
+
+.login-btn:hover {
+    background-color: #333333ea;
+}
+
+
+
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 5px 0;
+    border-top: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 10px 5px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    margin: 5px 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact p, .media p {
+    margin: 10px 0;
+}
+
+.media .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.media .social-icons a {
+    color: #000000;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.media .social-icons a:hover {
+    color: #666060;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.about-us-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+

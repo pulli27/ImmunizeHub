@@ -1,0 +1,156 @@
+
+
+
+
+ 
+  
+
+
+.logo {
+    width: 80px; /* Slightly smaller to match proportions */
+    border-radius: 8px; /* Rounded corners for a soft look */
+}
+
+.header-title {
+    flex-grow: 1; /* Takes available space between logo and icon */
+    text-align: center; /* Center align the title */
+    font-size: 1.8em; /* Slightly larger for emphasis */
+    font-weight: bold;
+    color: #333; /* Dark text for good readability */
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+}
+
+.exit-icon {
+    font-size: 1.8em;
+    color: #f44336; /* Red color to make it easily recognizable */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+.exit-icon:hover {
+    color: #d32f2f; /* Darker red on hover for a feedback effect */
+}
+
+
+
+form {
+    width: 500px;
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f7f7f7; /* Light gray background for form */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Simple and professional font */
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333; /* Dark color for text */
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    height: 60px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Blue color for submit/update button */
+    color: #fff;
+}
+
+input[type="reset"] {
+    background-color: #f44336; /* Red color for reset button */
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Blue outline on focus */
+    outline: none;
+}
+
+.hidden {
+    display: none; /* Hide any hidden input elements */
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Light border for table elements */
+}
+
+th, td {
+    padding: 15px;
+    text-align: center; /* Center-align content */
+}
+
+th {
+    background-color: #007bff; /* Blue background for header */
+    color: #fff; /* White text color for header */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* Lighter blue for hovered row */
+}
+
+.edit-icon, .delete-icon {
+    font-size: 1.2em;
+    color: #007bff; /* Blue for edit */
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-icon {
+    color: #f44336; /* Red for delete */
+}
+
+.edit-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.delete-icon:hover {
+    color: #d32f2f; /* Darker red on hover */
+}

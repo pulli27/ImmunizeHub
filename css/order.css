@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("../images/backvaccine.jpeg");
+    background-repeat: no-repeat;
+    background-size :cover;
+    position: relative;
+   
+}
+
+
+
+.order-section {
+    padding: 20px;
+    text-align: center;
+    color: #0f47d3;
+}
+
+.orderD{
+    margin-left: 10px;
+}
+
+.orderTable{
+    padding: 20px; 
+    
+}
+   
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0457b0; /* Blue background for header */
+    color: #fff; /* White text color for header */
+    font-weight: bold;
+}
+
+td{
+    background-color: #293561; /* Blue background for header */
+    color: #fff; /* White text color for header */
+   
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* Lighter blue for hovered row */
+}
+
+
+
+
+
+
